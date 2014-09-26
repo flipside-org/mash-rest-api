@@ -44,3 +44,18 @@ Create a participant:
 ```php
 $api->createParticipant($payload);
 ```
+
+Get a specific participant:
+```php
+$api->getParticipant($uuid, $payload);
+```
+
+Add usage to a participant:
+```php
+$api->addUsage($uuid, $payload);
+```
+
+Remove usage from a participant:
+```php
+$api->removeUsage($uuid, $payload);
+```
